@@ -9,29 +9,30 @@
   </head>
   <body>
     <div class="container">
-      <ul class="nav nav-tabs">
-        <li class="active"><a data-toggle="tab" href="#">Home</a></li>
-        <li><a data-toggle="tab" href="#">About</a></li>
-        <li><a data-toggle="tab" href="#">Projects</a></li>
-        <li><a data-toggle="tab" href="#">Photos</a></li>
-      </ul>
+      <ul class="nav nav-tabs" role="tablist">
+        <li role="presentation" class="active"><a href="#Home" aria-controls="Home" role="tab" data-toggle="tab">Home</a></li>
+        <li role="presentation"><a href="#About" aria-controls="Home" role="tab" data-toggle="tab">Profile</a></li>
+        <li role="presentation"><a href="#Projects" aria-controls="Projects" role="tab" data-toggle="tab">Messages</a></li>
+        <li role="presentation"><a href="#Photos" aria-controls="Photos" role="tab" data-toggle="tab">Settings</a></li>
+  </ul>
       <div class="tab-content">
-        <div id="Home" class="tab-pane fade in active">
+        <div role="tabpanel" class="tab-pane active" id="Home">
           <h2>Home</h2>
             <p>Hi! I'm Marilyn. I'm currently a student at <a href=https://www.epicodus.com/> Epicodus</a> in the Evening Intro to Coding program. This page will serve as a portfolio for the coding work I do in the program, and beyond! Please check out the other tabs on this page to see my portfolio, some photos, and learn more about me. For now, please enjoy this picture of my adorable dog, Kili <img src="Kili.JPG" alt="A photo of Kili, a Siberian husky."></p>
         </div>
-        <div id="About" class="tab-pane fade">
+        <div role="tabpanel" class="tab-pane active" id="About">
           <h2>About</h2>
             <p>I am a graduate of Reed College with a degree in Classics. I came to Portland five and a half years ago all the way from New York city and fell in love with the community and landscape of the Pacific Northwest. When I'm not learning to code I spend my time hiking at the Sandy River Delta with my husky, Kili, or whipping up new vegan recipes. I love to read, especially modern fiction and historical biographies, and try to travel as much as I am able; my most recent trip was to Antarctica, and this spring I am heading to the Galapagos.</p>
         </div>
-        <div id="Projects" class="tab-pane fade">
+        <div role="tabpanel" class="tab-pane active" id="Projects">
           <h2>Projects</h2>
             <p>Some content in menu 2.</p>
         </div>
-        <div id="Photos" class="tab-pane fade">
+        <div role="tabpanel" class="tab-pane active" id="Photots">
           <h2>Photos</h2>
             <p>CONTENT</p>
         </div>
+      </div>
     </div>
   </body>
 </html>
