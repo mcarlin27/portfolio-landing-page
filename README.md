@@ -11,7 +11,8 @@ ________________________________________________________________________________
 2. CSS
 3. Bootstrap
 _This portfolio page uses HTML and CSS only, though may in the future link to projects created with other languages. This portfolio page presents a first attempt at a personal CSS style sheet, using Bootstrap as a guideline and a secondary style sheet._
-________________________________________________________________________________
+___________________________________________________________________________________________
+
 ###License
 *This page is licensed under the MIT license*
 Copyright (c) 2017 **_Marilyn Carlin_**
